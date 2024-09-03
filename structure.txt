@@ -1,0 +1,17 @@
+crypto-payment-gateway/
+├── cmd/
+│   ├── api-gateway/
+│   │   └── main.go
+├── internal/
+│   ├── middleware/
+│   │   └── middleware.go
+│   ├── routes/
+│   │   └── routes.go
+│   ├── services/
+│   │   ├── payment/
+│   │   │   └── client.go
+│   │   └── verification/
+│   │       └── client.go
+├── config/
+│   └── config.go
+└── go.mod
