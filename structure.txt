@@ -1,17 +1,22 @@
 crypto-payment-gateway/
 ├── cmd/
 │   ├── api-gateway/
-│   │   └── main.go
+│   │   └── main.go             # Entry point for your API Gateway application
 ├── internal/
 │   ├── middleware/
-│   │   └── middleware.go
+│   │   └── middleware.go       # Contains any middleware logic
 │   ├── routes/
-│   │   └── routes.go
+│   │   └── routes.go           # Defines HTTP handlers for different routes
 │   ├── services/
 │   │   ├── payment/
-│   │   │   └── client.go
+│   │   │   └── client.go       # Client logic for interacting with the payment service
 │   │   └── verification/
-│   │       └── client.go
+│   │       └── client.go       # Client logic for interacting with the verification service
+├── mock-services/              # Folder for mock services
+│   ├── payment-service/
+│   │   └── main.go             # Mock Payment Service
+│   └── verification-service/
+│       └── main.go             # Mock Verification Service
 ├── config/
-│   └── config.go
-└── go.mod
+│   └── config.go               # Application configuration
+└── go.mod                      # Go module file
