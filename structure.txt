@@ -1,3 +1,5 @@
+#Basic structure of the API Gateway
+
 crypto-payment-gateway/
 ├── cmd/
 │   ├── api-gateway/
