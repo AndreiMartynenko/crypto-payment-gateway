@@ -22,3 +22,5 @@ crypto-payment-gateway/
 ├── config/
 │   └── config.go               # Application configuration
 └── go.mod                      # Go module file
+
+//check structure
